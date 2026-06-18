@@ -1,39 +1,52 @@
 body{
-    font-family: 1em sans-serif;
-    background-color: #f7f3ed;
-    color: #3e3a35;
-    height: 2em;
+    font-family: Arial, sans-serif;
+    background-color: #f5f0eb;
+    color: #333333;
+    margin: 20px;
+    padding: 0;
 }
-.nav{
-    display: flex;
-    align-items: center;
-    padding: 20px;
+header{
+    text-align: center;
     background-color: #ffffff;
-    box-shadow: 10px;
+    padding: 10px;
+    border-radius: 8px;
 }
-.h-layout{
+nav{
+    text-align: center;
+    color: #8b5a2b;
+    font-weight: bold;
+    margin: 15px;
+}
+main{
     display: flex;
-    align-items: left;
-    width: 1000px;
-    margin: 50px;
+    gap: 30px;
+    background-color: #ffffff;
     padding: 20px;
+    border-radius: 8px;
+    text-align: center;
 }
-.h-image{
-    width: 280px;
-    height: 2em;
-    border-radius: 15px;                    
-    box-shadow: 8px;
+main img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
 }
-.h-text{
-    flex: 1;
-    color: #4a4238;
+fieldset{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    border: 8px;
+    max-width: 500px;
+    margin: 0;
 }
-.h-quote{
-    margin-top: 25px;
-    padding-left: 15px;
-    border-left: 4px solid #b38b6d;
+figure{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px;
 }
-.h-quote{
-    font-style: italic;
-    color: #8c7e6c;
+figure img{
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
 }
